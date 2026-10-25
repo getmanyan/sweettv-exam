@@ -1,0 +1,17 @@
+method,params,map5,map5_warm,map5_testusers,fit_s,total_s
+popularity,{},0.23307,0.23596,0.25502,0.0,1.5
+popularity_x_airings,{'by_airings': True},0.26073,0.26433,0.28689,0.0,1.7
+history_count,{'mode': 'count'},0.3205,0.32565,0.35867,0.0,1.0
+history_rate,"{'mode': 'rate', 'half_life': None, 'smooth': 40.0}",0.34252,0.34823,0.38143,0.0,1.2
+ppr,"{'alpha': 0.5, 'beta': 0.0, 'log_weights': False}",0.34018,0.34583,0.37753,0.0,19.7
+als,"{'factors': 8, 'alpha': 1.0, 'reg': 30.0, 'iters': 10}",0.29568,0.30019,0.32126,1.4,3.0
+cbf,{'use_channel': True},0.23114,0.23398,0.25286,0.2,4.2
+assoc_rules,"{'min_support': 10, 'min_conf': 0.05, 'agg': 'max'}",0.27651,0.28052,0.3023,0.1,2.6
+popularity,{},0.23307,0.23596,0.25502,0.0,0.5
+popularity_x_airings,{'by_airings': True},0.26073,0.26433,0.28689,0.0,0.5
+history_count,{'mode': 'count'},0.3205,0.32565,0.35867,0.0,0.3
+history_rate,"{'mode': 'rate', 'half_life': None, 'smooth': 40.0}",0.34252,0.34823,0.38143,0.0,0.3
+ppr,"{'alpha': 0.5, 'beta': 0.0, 'log_weights': False}",0.34018,0.34583,0.37753,0.0,8.0
+als,"{'factors': 8, 'alpha': 1.0, 'reg': 30.0, 'iters': 10}",0.29568,0.30019,0.32126,0.6,1.2
+cbf,{'use_channel': True},0.23114,0.23398,0.25286,0.1,2.0
+assoc_rules,"{'min_support': 10, 'min_conf': 0.05, 'agg': 'max'}",0.27651,0.28052,0.3023,0.0,0.8

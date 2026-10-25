@@ -1,0 +1,9 @@
+method,params,map5,map5_warm,map5_testusers,fit_s,total_s
+popularity,{},0.23307,0.23596,0.25502,0.0,0.5
+popularity_x_airings,{'by_airings': True},0.26073,0.26433,0.28689,0.0,0.4
+history_count,{'mode': 'count'},0.31885,0.32395,0.35863,0.0,1.0
+history_rate,"{'mode': 'rate', 'half_life': None, 'smooth': 40.0}",0.34252,0.34823,0.38143,0.0,1.0
+ppr,"{'alpha': 0.5, 'beta': 0.0, 'log_weights': False}",0.34018,0.34583,0.37753,0.0,16.1
+als,"{'factors': 8, 'alpha': 1.0, 'reg': 30.0, 'iters': 10}",0.29568,0.30019,0.32126,1.1,1.5
+cbf,{'use_channel': True},0.22813,0.23089,0.24966,0.1,1.6
+assoc_rules,"{'min_support': 10, 'min_conf': 0.05, 'agg': 'max'}",0.27655,0.28056,0.30211,0.1,1.8

@@ -1,0 +1,13 @@
+{
+ "thin_method": "ppr",
+ "T": 2,
+ "map5_half_A_tuned": 0.35076,
+ "map5_half_B_heldout": 0.34948,
+ "map5_all": 0.35012,
+ "switched_users": 53,
+ "no_switch": {
+  "A": 0.35046,
+  "B": 0.34906,
+  "all": 0.34976
+ }
+}

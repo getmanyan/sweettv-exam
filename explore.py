@@ -1,0 +1,25 @@
+"""Descriptive checks used in the report (coverage, thresholds, schedule sanity)."""
+import numpy as np, pandas as pd
+from common import DATA as D, WORK as W
+sch = pd.read_pickle(f"{W}/airings.pkl"); ua = pd.read_pickle(f"{W}/user_airings.pkl")
+sub = pd.read_csv(f"{D}/submission.csv", dtype={"user_id": str})
+test_users = set(sub.user_id)
+print("test users", len(test_users))
+views = pd.read_csv(f"{D}/dataset11-30.csv", dtype={"user_id": str}, usecols=["user_id", "duraton"])
+print("log users", views.user_id.nunique(), "| test users in log", len(test_users & set(views.user_id)))
+print("view duration quantiles (s):", views.duraton.quantile([.1, .25, .5, .75, .9, .99]).round().to_dict())
+print("airing duration quantiles (s):", sch.duration.quantile([.1, .25, .5, .75, .9]).round().to_dict())
+clipped = (sch.join_end < sch.air_end).sum(); print("airings clipped because next airing starts earlier:", clipped)
+print("airings by week:", sch.groupby("week").size().to_dict())
+print("screen-time quantiles of matched pairs:", ua.screen.quantile([.1, .25, .5, .75, .9]).round(3).to_dict())
+print("share of pairs >=0.8:", round((ua.screen >= .8).mean(), 3), "| >=0.5:", round((ua.screen >= .5).mean(), 3))
+w = ua[ua.watched]
+per_user = w.groupby("user_id").tv_show_id.nunique()
+tu = pd.Series(sorted(test_users))
+cov = per_user.reindex(tu).fillna(0)
+print("test users with >=1 watched show:", (cov >= 1).sum(), "| >=5:", (cov >= 5).sum(), "| none:", (cov == 0).sum())
+print("weeks of watched airings:", w.groupby("week").size().to_dict())
+print("distinct shows watched (train):", w.tv_show_id.nunique())
+test_shows = set(sch[sch.week >= 31].tv_show_id); train_shows = set(sch[sch.week <= 30].tv_show_id)
+print("shows airing wk31-42:", len(test_shows), "| of them never aired wk11-30:", len(test_shows - train_shows))
+print("categories:", sch.tv_show_category.value_counts().to_dict())

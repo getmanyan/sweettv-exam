@@ -1,0 +1,40 @@
+{
+ "weights": {
+  "ppr": 0,
+  "assoc_rules": 0,
+  "cbf": 0,
+  "als": 0.25,
+  "popularity": 0.1,
+  "history": 1.0
+ },
+ "map5_half_A_tuned": 0.35046,
+ "map5_half_B_heldout": 0.34906,
+ "map5_all": 0.34976,
+ "map5_testusers": 0.38559,
+ "grid_size": 256,
+ "grid_seconds": 576.1,
+ "single_popularity": {
+  "A": 0.25918,
+  "B": 0.26228
+ },
+ "single_history": {
+  "A": 0.34089,
+  "B": 0.34415
+ },
+ "single_ppr": {
+  "A": 0.33904,
+  "B": 0.34132
+ },
+ "single_als": {
+  "A": 0.29536,
+  "B": 0.29601
+ },
+ "single_cbf": {
+  "A": 0.22869,
+  "B": 0.23358
+ },
+ "single_assoc_rules": {
+  "A": 0.27397,
+  "B": 0.27905
+ }
+}

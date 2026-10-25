@@ -1,0 +1,42 @@
+{'method': 'ppr', 'params': "{'alpha': 0.3, 'beta': 0.0, 'log_weights': True}", 'map5': 0.33459, 'map5_warm': 0.34009, 'map5_testusers': 0.37364, 'fit_s': 0.0, 'total_s': 15.0}
+{'method': 'ppr', 'params': "{'alpha': 0.3, 'beta': 0.0, 'log_weights': False}", 'map5': 0.33567, 'map5_warm': 0.34121, 'map5_testusers': 0.37466, 'fit_s': 0.0, 'total_s': 15.5}
+{'method': 'ppr', 'params': "{'alpha': 0.3, 'beta': 0.25, 'log_weights': True}", 'map5': 0.22187, 'map5_warm': 0.22447, 'map5_testusers': 0.24152, 'fit_s': 0.0, 'total_s': 16.1}
+{'method': 'ppr', 'params': "{'alpha': 0.3, 'beta': 0.25, 'log_weights': False}", 'map5': 0.29602, 'map5_warm': 0.30053, 'map5_testusers': 0.33139, 'fit_s': 0.0, 'total_s': 15.5}
+{'method': 'ppr', 'params': "{'alpha': 0.3, 'beta': 0.5, 'log_weights': True}", 'map5': 0.06812, 'map5_warm': 0.06676, 'map5_testusers': 0.05838, 'fit_s': 0.0, 'total_s': 16.1}
+{'method': 'ppr', 'params': "{'alpha': 0.3, 'beta': 0.5, 'log_weights': False}", 'map5': 0.19031, 'map5_warm': 0.19209, 'map5_testusers': 0.20331, 'fit_s': 0.0, 'total_s': 15.8}
+{'method': 'ppr', 'params': "{'alpha': 0.5, 'beta': 0.0, 'log_weights': True}", 'map5': 0.33499, 'map5_warm': 0.3405, 'map5_testusers': 0.37319, 'fit_s': 0.0, 'total_s': 15.1}
+{'method': 'ppr', 'params': "{'alpha': 0.5, 'beta': 0.0, 'log_weights': False}", 'map5': 0.34018, 'map5_warm': 0.34583, 'map5_testusers': 0.37753, 'fit_s': 0.0, 'total_s': 16.3}
+{'method': 'ppr', 'params': "{'alpha': 0.5, 'beta': 0.25, 'log_weights': True}", 'map5': 0.26686, 'map5_warm': 0.27062, 'map5_testusers': 0.29369, 'fit_s': 0.0, 'total_s': 15.3}
+{'method': 'ppr', 'params': "{'alpha': 0.5, 'beta': 0.25, 'log_weights': False}", 'map5': 0.31524, 'map5_warm': 0.32025, 'map5_testusers': 0.35421, 'fit_s': 0.0, 'total_s': 16.1}
+{'method': 'ppr', 'params': "{'alpha': 0.5, 'beta': 0.5, 'log_weights': True}", 'map5': 0.07934, 'map5_warm': 0.07826, 'map5_testusers': 0.07023, 'fit_s': 0.0, 'total_s': 15.1}
+{'method': 'ppr', 'params': "{'alpha': 0.5, 'beta': 0.5, 'log_weights': False}", 'map5': 0.21591, 'map5_warm': 0.21835, 'map5_testusers': 0.23285, 'fit_s': 0.0, 'total_s': 16.3}
+{'method': 'ppr', 'params': "{'alpha': 0.7, 'beta': 0.0, 'log_weights': True}", 'map5': 0.32066, 'map5_warm': 0.32581, 'map5_testusers': 0.35393, 'fit_s': 0.0, 'total_s': 14.6}
+{'method': 'ppr', 'params': "{'alpha': 0.7, 'beta': 0.0, 'log_weights': False}", 'map5': 0.32659, 'map5_warm': 0.33189, 'map5_testusers': 0.36253, 'fit_s': 0.0, 'total_s': 15.5}
+{'method': 'ppr', 'params': "{'alpha': 0.7, 'beta': 0.25, 'log_weights': True}", 'map5': 0.30673, 'map5_warm': 0.31152, 'map5_testusers': 0.33962, 'fit_s': 0.0, 'total_s': 15.7}
+{'method': 'ppr', 'params': "{'alpha': 0.7, 'beta': 0.25, 'log_weights': False}", 'map5': 0.32142, 'map5_warm': 0.32658, 'map5_testusers': 0.35854, 'fit_s': 0.0, 'total_s': 15.5}
+{'method': 'ppr', 'params': "{'alpha': 0.7, 'beta': 0.5, 'log_weights': True}", 'map5': 0.11594, 'map5_warm': 0.1158, 'map5_testusers': 0.1112, 'fit_s': 0.0, 'total_s': 15.8}
+{'method': 'ppr', 'params': "{'alpha': 0.7, 'beta': 0.5, 'log_weights': False}", 'map5': 0.25313, 'map5_warm': 0.25653, 'map5_testusers': 0.27505, 'fit_s': 0.0, 'total_s': 15.2}
+{'method': 'ppr', 'params': "{'alpha': 0.85, 'beta': 0.0, 'log_weights': True}", 'map5': 0.29542, 'map5_warm': 0.29992, 'map5_testusers': 0.324, 'fit_s': 0.0, 'total_s': 14.9}
+{'method': 'ppr', 'params': "{'alpha': 0.85, 'beta': 0.0, 'log_weights': False}", 'map5': 0.2982, 'map5_warm': 0.30277, 'map5_testusers': 0.33109, 'fit_s': 0.0, 'total_s': 15.0}
+{'method': 'ppr', 'params': "{'alpha': 0.85, 'beta': 0.25, 'log_weights': True}", 'map5': 0.30486, 'map5_warm': 0.3096, 'map5_testusers': 0.33781, 'fit_s': 0.0, 'total_s': 15.8}
+{'method': 'ppr', 'params': "{'alpha': 0.85, 'beta': 0.25, 'log_weights': False}", 'map5': 0.30348, 'map5_warm': 0.30819, 'map5_testusers': 0.33785, 'fit_s': 0.0, 'total_s': 16.6}
+{'method': 'ppr', 'params': "{'alpha': 0.85, 'beta': 0.5, 'log_weights': True}", 'map5': 0.19662, 'map5_warm': 0.19857, 'map5_testusers': 0.20689, 'fit_s': 0.0, 'total_s': 15.6}
+{'method': 'ppr', 'params': "{'alpha': 0.85, 'beta': 0.5, 'log_weights': False}", 'map5': 0.27418, 'map5_warm': 0.27812, 'map5_testusers': 0.3014, 'fit_s': 0.0, 'total_s': 15.3}
+{'method': 'als', 'params': "{'factors': 32, 'alpha': 5.0, 'reg': 0.1, 'iters': 10}", 'map5': 0.21422, 'map5_warm': 0.21662, 'map5_testusers': 0.2252, 'fit_s': 1.8, 'total_s': 2.2}
+{'method': 'als', 'params': "{'factors': 32, 'alpha': 5.0, 'reg': 1.0, 'iters': 10}", 'map5': 0.21662, 'map5_warm': 0.21909, 'map5_testusers': 0.22735, 'fit_s': 1.9, 'total_s': 2.3}
+{'method': 'als', 'params': "{'factors': 32, 'alpha': 20.0, 'reg': 0.1, 'iters': 10}", 'map5': 0.17206, 'map5_warm': 0.17337, 'map5_testusers': 0.17369, 'fit_s': 1.9, 'total_s': 2.3}
+{'method': 'als', 'params': "{'factors': 32, 'alpha': 20.0, 'reg': 1.0, 'iters': 10}", 'map5': 0.17517, 'map5_warm': 0.17656, 'map5_testusers': 0.17766, 'fit_s': 1.9, 'total_s': 2.3}
+{'method': 'als', 'params': "{'factors': 32, 'alpha': 40.0, 'reg': 0.1, 'iters': 10}", 'map5': 0.1412, 'map5_warm': 0.14172, 'map5_testusers': 0.13465, 'fit_s': 1.9, 'total_s': 2.3}
+{'method': 'als', 'params': "{'factors': 32, 'alpha': 40.0, 'reg': 1.0, 'iters': 10}", 'map5': 0.14665, 'map5_warm': 0.14731, 'map5_testusers': 0.142, 'fit_s': 1.7, 'total_s': 2.1}
+{'method': 'als', 'params': "{'factors': 64, 'alpha': 5.0, 'reg': 0.1, 'iters': 10}", 'map5': 0.19973, 'map5_warm': 0.20176, 'map5_testusers': 0.20576, 'fit_s': 3.8, 'total_s': 4.3}
+{'method': 'als', 'params': "{'factors': 64, 'alpha': 5.0, 'reg': 1.0, 'iters': 10}", 'map5': 0.20254, 'map5_warm': 0.20464, 'map5_testusers': 0.20898, 'fit_s': 4.2, 'total_s': 4.7}
+{'method': 'als', 'params': "{'factors': 64, 'alpha': 20.0, 'reg': 0.1, 'iters': 10}", 'map5': 0.19018, 'map5_warm': 0.19196, 'map5_testusers': 0.19558, 'fit_s': 4.2, 'total_s': 4.7}
+{'method': 'als', 'params': "{'factors': 64, 'alpha': 20.0, 'reg': 1.0, 'iters': 10}", 'map5': 0.19058, 'map5_warm': 0.19237, 'map5_testusers': 0.19579, 'fit_s': 3.9, 'total_s': 4.3}
+{'method': 'als', 'params': "{'factors': 64, 'alpha': 40.0, 'reg': 0.1, 'iters': 10}", 'map5': 0.16793, 'map5_warm': 0.16913, 'map5_testusers': 0.16876, 'fit_s': 3.9, 'total_s': 4.3}
+{'method': 'als', 'params': "{'factors': 64, 'alpha': 40.0, 'reg': 1.0, 'iters': 10}", 'map5': 0.16935, 'map5_warm': 0.17059, 'map5_testusers': 0.16889, 'fit_s': 3.8, 'total_s': 4.2}
+{'method': 'als', 'params': "{'factors': 128, 'alpha': 5.0, 'reg': 0.1, 'iters': 10}", 'map5': 0.18018, 'map5_warm': 0.1817, 'map5_testusers': 0.18132, 'fit_s': 15.2, 'total_s': 15.6}
+{'method': 'als', 'params': "{'factors': 128, 'alpha': 5.0, 'reg': 1.0, 'iters': 10}", 'map5': 0.18985, 'map5_warm': 0.19163, 'map5_testusers': 0.19472, 'fit_s': 14.7, 'total_s': 15.2}
+{'method': 'als', 'params': "{'factors': 128, 'alpha': 20.0, 'reg': 0.1, 'iters': 10}", 'map5': 0.18717, 'map5_warm': 0.18888, 'map5_testusers': 0.19384, 'fit_s': 16.2, 'total_s': 16.7}
+{'method': 'als', 'params': "{'factors': 128, 'alpha': 20.0, 'reg': 1.0, 'iters': 10}", 'map5': 0.18952, 'map5_warm': 0.19129, 'map5_testusers': 0.19758, 'fit_s': 15.2, 'total_s': 15.7}
+{'method': 'als', 'params': "{'factors': 128, 'alpha': 40.0, 'reg': 0.1, 'iters': 10}", 'map5': 0.18536, 'map5_warm': 0.18702, 'map5_testusers': 0.19416, 'fit_s': 15.6, 'total_s': 16.2}
+{'method': 'als', 'params': "{'factors': 128, 'alpha': 40.0, 'reg': 1.0, 'iters': 10}", 'map5': 0.18571, 'map5_warm': 0.18738, 'map5_testusers': 0.19501, 'fit_s': 15.9, 'total_s': 16.4}
